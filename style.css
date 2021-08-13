@@ -21,6 +21,8 @@ h3 {
 
 #colchis-palace {
   position: relative;
+  width: 100vw;
+  height: auto;
 }
 
 .text-block {
@@ -35,7 +37,8 @@ h3 {
 }
 
 #heroes {
-  display: block;
+  display: flex;
+  justify-content: center;
   position: relative;
   text-align: left;
   height: auto;
@@ -45,9 +48,9 @@ h3 {
 
 .centered {
   position: absolute;
-  top: 150px;
-  left: 600px;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  transform: translate(42%, 167%);
   font-size: 3em;
   color: white;
   text-align: center;
@@ -74,9 +77,9 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  margin: 0;
+  margin: 0 10px;
   padding: 0;
-  width: 1280px;
+  width: 100vw;
   background-color: #009688;
 }
 
@@ -123,6 +126,12 @@ thead {
   text-align: left;
   background-color: #009688;
   color: white;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #button-submit {
